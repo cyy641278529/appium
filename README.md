@@ -26,8 +26,10 @@ open  `WebDriverAgent.xcodeproj`
      `$(SRCROOT)/../Carthage/Build/iOS`
      `$(PROJECT)/Carthage/Build/iOS`
 
-then WebDriverAgentLib->Build Setting->Build Active Architecture Only->No
- build and test
- Product -> Destination -> iphone6（choice simulator）
+WebDriverAgentLib->Build Setting->Build Active Architecture Only->No build and test
+
+Product -> Destination -> iphone6（choice simulator）
+
 Scheme  -> WebDriverAgentRunner:  Product -> Scheme ->WebDriverAgentRunner
- Product -> Test
+
+Product -> Test
